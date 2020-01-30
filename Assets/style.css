@@ -11,16 +11,24 @@ section {
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightgray;
+}
+
 #contact-form {
     width: 500px;
     padding: 30px;
     border: black;
     border-width: 10px, 10px, 10px, 10px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 35px;
 }
 
 #nav-title {
     padding-right: 1%;
     margin-right: 5px;
+    
 }
 
 #nav-links li{
@@ -28,16 +36,28 @@ section {
     justify-content: right;
 }
 
+/* Creates subdividers in the navbars' links. */
 .nav-right-border {
     border-right: solid 1px white;
 }
 
+.wrapper {
+    padding-top: 15px;
+    padding-left: 35px;
+    border-width: 5px;
+    border-color: black;
+    background: white;
+    width: 66%;
+    margin: 40px auto;
+}
+
 @media screen and (min-width: 768px) {
-    /* The body's bg color will be #333 */
 
 }
 
 @media screen and (min-width: 980px) {
-  
+    .wrapper {
+        float: left;
+        margin-left: 5%;
+    }
 }
-
