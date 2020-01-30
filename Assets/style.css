@@ -1,0 +1,43 @@
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .nav-wrapper {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1071;
+    }
+}
+
+section {
+    box-sizing: border-box;
+}
+
+#contact-form {
+    width: 500px;
+    padding: 30px;
+    border: black;
+    border-width: 10px, 10px, 10px, 10px;
+}
+
+#nav-title {
+    padding-right: 1%;
+    margin-right: 5px;
+}
+
+#nav-links li{
+    padding-left: 1%;
+    justify-content: right;
+}
+
+.nav-right-border {
+    border-right: solid 1px white;
+}
+
+@media screen and (min-width: 768px) {
+    /* The body's bg color will be #333 */
+
+}
+
+@media screen and (min-width: 980px) {
+  
+}
+
