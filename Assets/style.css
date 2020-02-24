@@ -1,12 +1,3 @@
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-    .nav-wrapper {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      z-index: 1071;
-    }
-}
-
 section {
     box-sizing: border-box;
 }
@@ -25,20 +16,9 @@ body {
     padding-left: 35px;
 }
 
-#nav-title {
-    padding-right: 1%;
-    margin-right: 5px;
-    
-}
-
-#nav-links li{
-    padding-left: 1%;
-    justify-content: right;
-}
-
 /* Creates subdividers in the navbars' links. */
 .nav-right-border {
-    border-right: solid 1px white;
+    border-right: solid 1px grey;
 }
 
 .wrapper {
