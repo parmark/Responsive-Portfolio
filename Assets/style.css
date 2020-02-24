@@ -1,9 +1,10 @@
-section {
-    box-sizing: border-box;
+body {
+    background-color: #5941A9;
+    color: #5941A9;
 }
 
-body {
-    background-color: lightgray;
+.navbar{
+    background-color: #D7D8EE;
 }
 
 #contact-form {
@@ -21,6 +22,14 @@ body {
     border-right: solid 1px grey;
 }
 
+.navbar-brand {
+    border-radius: 25px;
+    width: 180;
+    padding: 10px;  
+    text-align: center;
+    font-size: 150%;
+}
+
 .wrapper {
     padding-top: 15px;
     padding-left: 35px;
@@ -29,10 +38,14 @@ body {
     background: white;
     width: 66%;
     margin: 40px auto;
+    background-color: #D7D8EE;
+    border-radius: 25px;
 }
 
-@media screen and (min-width: 768px) {
-
+.card {
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20%;
 }
 
 @media screen and (min-width: 980px) {
